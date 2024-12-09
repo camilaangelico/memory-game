@@ -6,6 +6,7 @@ body {
     min-height: 100vh;
     background: #fc1e8a;
     user-select: none;
+    width: 100%;
 }
 
 .container {
@@ -23,7 +24,6 @@ body {
         #fdeff9 100%
     ) ;
     padding: 40px 60px;
-    width:100%;
 }
 h2 {
     font-size: 3em;
@@ -54,7 +54,7 @@ h2 {
 .game {
     width: 430px;
     height: 430px;
-    display: grid;
+    display: flex;
     flex-wrap: wrap;
     gap: 10px;
     transform-style: preserve-3d;
